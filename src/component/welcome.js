@@ -1,8 +1,8 @@
 import React,{Component} from "react";
 
-class Welcome extends React.Component{
+class Welcome extends Component{
     render(){
-        return <h1>class Component</h1>
+        return <h1>Welcome {this.props.name} a.k.a {this.props.heroName}</h1>
     }
 }
 
