@@ -6,5 +6,8 @@ function Greet(props){
      {props.children}
      </div>)
 }
+//destructuring
+
 
 export default Greet;
+
