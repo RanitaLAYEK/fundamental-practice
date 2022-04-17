@@ -9,6 +9,7 @@ import Counter from './component/counter';
 import FunctionClick from './component/FunctionClick';
 import ClassClick from './component/ClassClick';
 import EventBind from './component/EventBind';
+import StyleSheet from './component/stylesheet';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <FunctionClick />
       <ClassClick />
       <EventBind />
+      <StyleSheet />
     </div>
     
   );
