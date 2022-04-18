@@ -14,6 +14,7 @@ import Inline from './component/inline';
 import './appStyles.css';
 import style from './appStyles.module.css';
 import Form from './component/Form';
+import LifeCycleA from './component/LifeCycleA';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
       <EventBind />
       <StyleSheet primary={true}/>
   <Inline />*/}
+  <LifeCycleA />
   <Form />
     </div>
     
